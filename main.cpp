@@ -156,7 +156,7 @@ static bool tryLoadTexture(const wchar_t * filepath)
     if(ret)
         g_loadedfilepath = filepath;
     else
-        g_loadedfilepath = L"Tile Sheet Viewer - Erorr";
+        g_loadedfilepath = L"Tile Sheet Viewer - Error";
 
     return true;
 }
